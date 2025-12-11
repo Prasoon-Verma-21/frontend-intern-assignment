@@ -6,7 +6,7 @@ This is my submission for the Frontend Developer Intern assignment. I really enj
 
 ## 🚀 Live Demo
 You can check out the live application here:
-**[Insert your Vercel/Netlify Link Here]**
+**https://frontend-intern-assignment-six.vercel.app/**
 
 ## 🛠️ The Tech Stack
 I chose this specific stack to meet the assignment requirements and ensure type safety:
@@ -38,7 +38,7 @@ If you'd like to run the code on your machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [YOUR_GITHUB_REPO_URL]
+    git clone https://github.com/Prasoon-Verma-21/frontend-intern-assignment.git
     ```
 2.  **Install dependencies:**
     ```bash
