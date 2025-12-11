@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Developer Intern Assignment - Quiz Application
 
-## Getting Started
+Hi there! 👋
 
-First, run the development server:
+This is my submission for the Frontend Developer Intern assignment. I really enjoyed working on this! My goal was to replicate the Figma design with pixel-perfect accuracy while ensuring the code remains clean, scalable, and easy to read.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
+You can check out the live application here:
+**[Insert your Vercel/Netlify Link Here]**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ The Tech Stack
+I chose this specific stack to meet the assignment requirements and ensure type safety:
+* **Next.js (App Router):** For a robust and modern React framework.
+* **TypeScript:** To prevent bugs and ensure strict data typing.
+* **Tailwind CSS:** To achieve the specific styling and gradients required by the design.
+* **Lucide React:** For the navigation icons.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Key Features
+* **Pixel-Perfect UI:** I paid close attention to details like the soft background gradients, card shadows, and specific font choices (Playfair Display & Inter) to match the screenshots exactly.
+* **Interactive Animations:** I managed to extract the static "Cat Paw" asset from the design. To bring it to life without a heavy video file, I implemented a custom **Tailwind CSS keyframe animation** (`animate-float`) that makes the paw gently bounce, mimicking the original prototype.
+* **Smart Feedback:** The app gives dynamic feedback. If you score 100%, you get a "Well Done!!" message; otherwise, it encourages you to "Keep Learning!"
+* **Smooth UX:** The quiz handles question navigation, state management, and score calculation seamlessly without any page reloads.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 My Approach & Assumptions
+* **Asset Handling:** Since the original animated asset wasn't directly exportable as a video/GIF, I used the static image asset and wrote code to animate it. This trade-off provides the correct visual fidelity while keeping the site performance high.
+* **Responsive Design:** The assignment requested a "Desktop" view, so I optimized the layout for larger screens. However, I used Flexbox to ensure the layout remains centered and unbreakable on smaller devices as well.
+* **Data Structure:** The questions are currently stored in a constant array for simplicity, but the structure is designed to be easily swapped with an API call in the future.
 
-## Learn More
+## ⏱️ Time Spent
+**Total Time: ~5 Hours**
 
-To learn more about Next.js, take a look at the following resources:
+* **1 Hour:** Initial project setup, configuring fonts, and fixing Tailwind configuration.
+* **3 Hours:** Core development—building the components and fine-tuning the CSS to match the Figma design (gradients, spacing, shadows).
+* **1 Hour:** Polishing the "Result" logic, implementing the custom paw animation, and writing this documentation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ How to Run Locally
+If you'd like to run the code on your machine:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  **Clone the repository:**
+    ```bash
+    git clone [YOUR_GITHUB_REPO_URL]
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the server:**
+    ```bash
+    npm run dev
+    ```
+4.  **Open in browser:**
+    Navigate to `http://localhost:3000`
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
